@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/titlelogo.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!---cdn for font awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!--top navbar-->
+		<div class='container-fluid'>
+			<div class='row TopNav'>
+				<div class='col-4'>
+					<a href='tel:8765128693'>
+						<img src='img/phone.png' style='height:25px;'/>
+					<span class='TopNavContent'>Any Query?&ensp;</span></a>
+					&ensp;
+					<a href='mailto: srvs1245@gmail.com'>
+						<img src='img/email.png' style='height:25px;'/>
+						<span class='TopNavContent'>
+						Any Support?&ensp;</span></a>
+				</div>
+				<div class='col-8'>
+				<marquee>
+				Affiliated to Mahatma Gandhi Kashi Vidhyapith
+				</marquee>
+				</div>
+			</div>
+		</div>
+		<!--end of top navbar-->
+		<!--- header-->
+		<div class="container-fluid sticky-top">
+			<!--navbar-->
+			<div class="row p-0">
+				<div class=""  style="padding:0 !important">
+					<nav class="navbar navbar-expand-lg navbar-light" style="background:white;">
+						<img class='LogoCss'  src="img/logolaw2.png"/>
+						
+						<!-- Offcanvas toggle button (visible on all screen sizes) -->
+						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+						aria-controls="offcanvasExample">
+							<div class="burger" id="burger">
+								<div class="line1"></div>
+								<div class="line2"></div>
+								<div class="line3"></div>
+							</div>
+						</button>
+						
+						<!-- Navbar items -->
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+							<div class=" offcanvas-header" style='border-bottom:1px solid grey;'>
+								<img src="img/logolaw2.png" style="width:220px;height:60px;"/>
+								<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							</div>
+							<div class="mt-4 offcanvas-body">
+							<ul class="navbar-nav">
+							<li class="nav-item selectedmenu">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link active" href="About.html">About</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link active" href="Curriculum.html">Curriculum</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link active" href="Faculty.html">Faculty</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link active" href="Gallery.html">Gallery</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link active" href="Contact.html">Contact</a>
+							</li>
+							</ul><hr>		
+				<a href='tel:8765128693'style='text-decoration:none;color:#191A73;font-size:20px;margin-left:9px;'>
+								<i class="fa-solid fa-phone-volume"></i>
+								
+							<span class='TopNavContent'>Call Us&ensp;</span></a>
+							&ensp;
+							<a href='mailto: srvs1245@gmail.com' style='text-decoration:none;color:#191A73;font-size:20px;'>
+<i class="fa-solid fa-envelope"></i>
+								<span class='TopNavContent'>
+								Mail Us&ensp;</span></a>
+						</div>
+						
+						</div>
+						<!-- Navbar items (visible on larger screens) -->
+						<div class='MenuGap'></div>
+						<div class="collapse navbar-collapse ms-auto" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item selectedmenu">
+									<a class="nav-link" aria-current="page" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="About.html">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="Curriculum.html">Curriculum</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="Faculty.html">Faculty</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="Gallery.html">Gallery</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="Contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!--end of navbar-->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/Carousel1.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">An unjust law is itself a species of violence. Arrest for its breach is more so.</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">--Mahatma Gandhi--</p>
+                                    <a href="About.html" class="btn btn MainBtn1 rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Read More</a>
+                                    <a href="Contact.html" class="btn btn MainBtn2 rounded-pill py-sm-3 px-sm-5 animated slideInRight">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/Carousel4.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">If I find the constitution being misused, I shall be the first to burn it.</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">--B. R. Ambedkar--</p>
+                                    <a href="About.html" class="btn btn MainBtn1 rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Read More</a>
+                                    <a href="Contact.html" class="btn btn MainBtn2 rounded-pill py-sm-3 px-sm-5 animated slideInRight">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/Carousel3.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">The true function of a lawyer is to unite parties driven asunder.</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">--Ram Jethmalani--</p>
+               <a href="About.html" class="btn btn MainBtn1 rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Read More</a>
+                                    <a href="Contact.html" class="btn btn MainBtn2 rounded-pill py-sm-3 px-sm-5 animated slideInRight">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/Carousel2.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .2);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-2 text-white animated slideInDown mb-4">The life of the law has not been logic; it has been experience.</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">--Oliver Wendell Holmes Jr.--</p>
+               <a href="About.html" class="btn btn MainBtn1 rounded-pill py-sm-3 px-sm-5 me-3 animated slideInLeft">Read More</a>
+                                    <a href="Contact.html" class="btn btn MainBtn2 rounded-pill py-sm-3 px-sm-5 animated slideInRight">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Facilities Start -->
+        <div class="container-xxl">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+				
+                    <h1 style='color:#191A73;' class="mb-3">
+						<span style='color:#CC1F32;' >Our</span> Facilities
+						</h1>
+                    <p>I measure the progress of a community by the degree of progress which women have achieved</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="facility-item">
+                           
+                            <div class="facility-text bg-primary">
+							<i class="fa-solid fa-2x fa-user-tie"></i>
+                                <h3 class="text-primary mb-3">Best Faculty</h3>
+                                <p class="mb-0">We have the best and experienced teachers for the students</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="facility-item">
+                          
+                            <div class="facility-text bg-success">
+							<i class="fa-solid fa-2x fa-book"></i>
+                                <h3 class="text-success mb-3">Library</h3>
+                                <p class="mb-0">Available different type of law books in the library for the students </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="facility-item">
+                            
+                            <div class="facility-text bg-warning">
+							<i class="fa-solid fa-2x fa-baseball"></i>
+                                <h3 class="text-warning mb-3">Sports</h3>
+                                <p class="mb-0">There is also the sports' facility for those students who love sports</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="facility-item">
+                           
+                            <div class="facility-text bg-info">
+							<i class="fa-solid fa-2x fa-house-signal"></i>
+                                <h3 class="text-info mb-3">WiFi</h3>
+                                <p class="mb-0"> High-speed internet for legal research and case management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facilities End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5 bg-light mt-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+					<h3 style='color:black;'>-- About Us --</h3>
+                          <h1 style='color:#191A73;' class="mb-3">
+						<span style='color:#CC1F32;' >Welcome to</span> SRVS Law College</h1>
+                        <p>
+At Swargiya Ramvilash Singh Law College, we are dedicated to nurturing the legal minds of tomorrow through a blend of academic excellence, practical experience, and a commitment to justice. Our institution has earned a reputation for producing outstanding legal professionals who make a difference in society.</p>
+                        <p class="mb-4">Our mission is to provide a transformative legal education that prepares students to meet the challenges of a dynamic legal landscape. We emphasize intellectual rigor, ethical integrity, and the pursuit of justice in all facets of legal practice and scholarship</p>
+                        <div class="row g-4 align-items-center">
+                            <div class="col-sm-6">
+                                <a class="btn btn MainBtn1 rounded-pill py-3 px-5" href="">Read More</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle flex-shrink-0" src="img/user.jpg" alt="" style="width: 45px; height: 45px;">
+                                    <div class="ms-3">
+                                        <h6 class="text-primary mb-1">Principal_Name</h6>
+                                        <small>Principal</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img class="img-fluid w-75 rounded-circle bg-light p-3" src="img/About1.png" alt="">
+                            </div>
+                            <div class="col-6 text-start" style="margin-top: -150px;">
+                                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/About3.jpg" alt="">
+                            </div>
+                            <div class="col-6 text-end" style="margin-top: -150px;">
+                                <img class="img-fluid w-100 rounded-circle bg-light p-3" src="img/About2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Indian Constitution Start -->
+        <div class="discount wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+            <div class="row">
+                <div class="section-header">
+				
+				  <h1 style='color:#191A73;' class="mb-3">
+						<span style='color:#CC1F32;' >Indian </span>   Constitution 
+							</h1>
+                    
+                </div>
+                <div class="container discount-text">
+				<p>WE, THE PEOPLE OF INDIA, having solemnly
+resolved to constitute India into a 1
+[SOVEREIGN
+SOCIALIST SECULAR DEMOCRATIC REPUBLIC] and
+to secure to all its citizens:
+JUSTICE, social, economic and political;
+LIBERTY of thought, expression, belief, faith and
+worship;
+EQUALITY of status and of opportunity;
+and to promote among them all
+FRATERNITY assuring the dignity of the individual
+and the 2
+[unity and integrity of the Nation];
+IN OUR CONSTITUENT ASSEMBLY this twentysixth day of November, 1949, do HEREBY ADOPT,
+ENACT AND GIVE TO OURSELVES THIS
+CONSTITUTION.
+</p>
+                   <a target='_blank' href='https://www.indiacode.nic.in/bitstream/123456789/19151/1/constitution_of_india.pdf' class="btn btn MainBtn1 rounded-pill py-3 px-5">Read More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Indian Constitution End -->
+
+<!---Principal Message start--->
+   <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded">
+                    <div class="row mt-3 g-0">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                            <div class="position-relative h-100">
+                                <img class="position-absolute w-100 h-100 rounded" src="img/consti.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class=" d-flex flex-column justify-content-center PrincipalMsg">
+                            <h1 style='color:#191A73;' class="">
+						<span style='color:#CC1F32;' >Principal </span>   Message 
+							</h1>
+                                <p class="mb-4 mt-3">
+								Dear Students and Members of SRVS Law College Community,</p>
+<p>
+Welcome to SRVS Law College, where we believe in nurturing not just legal professionals, but leaders who will shape the future of our society through their commitment to justice, integrity, and excellence.</p>
+<p>
+As the Principal of this esteemed institution, it is my privilege to lead a dedicated team of faculty and staff who are committed to providing you with a transformative legal education experience. Our mission is to equip you with the knowledge, skills, and ethical foundation necessary to thrive in the complex and ever-evolving field of law.</p>
+<p>
+At SRVS Law College, we emphasize not only academic rigor but also the practical application of legal principles. Through our state-of-the-art facilities, including our extensive law library, modern classrooms, and mock courtroom experiences, you will have the opportunity to engage deeply with the law and develop critical thinking and advocacy skills.
+                                </p>
+               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!---Principal Message end--->
+
+        <!-- Team Start -->
+        <div class="container-xxl">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                     <h1 style='color:#191A73;' class="">
+						<span style='color:#CC1F32;' >Skilled </span>   Teachers 
+							</h1>
+                    <p>Law and order are the medicine of the body politic and when the body politic gets sick, medicine must be administered</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded-circle w-75" src="img/Team1.png" alt="">
+                            <div class="team-text">
+                                <h3>Teacher (i)</h3>
+                                <p>Law Teacher</p>
+                                <div class="d-flex align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded-circle w-75" src="img/Team2.png" alt="">
+                            <div class="team-text">
+                                <h3>Teacher (ii)</h3>
+                                <p>Law Teacher</p>
+                                <div class="d-flex align-items-center">
+                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item position-relative">
+                            <img class="img-fluid rounded-circle w-75" src="img/Team3.png" alt="">
+                            <div class="team-text">
+                                <h3>
+								Teacher (iii)
+								</h3>
+                                <p>Law Teacher</p>
+                                <div class="d-flex align-items-center">
+              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                  <h1 style='color:#191A73;' class="">
+						<span style='color:#CC1F32;' >Our </span>   Students Say! 
+							</h1>
+                    <p>We must stand on our own feet and fight as best as we can for our rights. So carry on your agitation and organize your forces. </p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-light rounded p-5">
+                        <p class="fs-5">Choosing SRVS Law College was one of the best decisions I've made. The faculty is incredibly knowledgeable and always willing to help. Thank to the college!</p>
+                        <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial1.png" style="width: 90px; height: 90px;">
+                            <div class="ps-3">
+                                <h3 class="mb-1" style='color:#191A73;'>Review (i)</h3>
+                                <span>Student</span>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x ms-auto d-none d-sm-flex" style='color:#CC1F32;'></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-5">
+                        <p class="fs-5">The resources and support available at SRVS Law College are exceptional. The law library is extensive. They guide us very well by which I could understant law easilly.</p>
+                        <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial2.png" style="width: 90px; height: 90px;">
+                            <div class="ps-3">
+                                <h3 class="mb-1" style='color:#191A73;'>Review (ii)</h3>
+                                <span>Student</span>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x ms-auto d-none d-sm-flex" style='color:#CC1F32;'></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-5">
+                        <p class="fs-5">The practical training at SRVS Law College is unparalleled. The mock trial rooms and moot court competitions have given me confidence.</p>
+                        <div class="d-flex align-items-center bg-white me-n5" style="border-radius: 50px 0 0 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial3.png" style="width: 90px; height: 90px;">
+                            <div class="ps-3">
+                                <h3 class="mb-1" style='color:#191A73;'>Review (iii)</h3>
+                                <span>Student</span>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x ms-auto d-none d-sm-flex" style='color:#CC1F32;'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid text-white-50 footer mt-5 wow fadeIn" style='background:#1f2c69;' data-wow-delay="0.1s">
+                <div class="row">
+				 <div class="col-lg-4 col-md-6">
+                        <img class='LogoCss mb-4' src='img/logolaw3.png'/><br>
+						<i class="fa fa-map-marker-alt me-3 text-light"></i><span class='text-light'>Address</span>
+                        <p class='mt-2'>Swargiya Ramvilash Singh, Vidhi Mahavidyalaya, Vijaypurva, Sikenderpur, Chakia, Uttar Pradesh 232103</p>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-6">
+                        <h3 class="text-white mb-4">Quick Links</h3>
+						 <a class="btn btn-link text-white-50" href="index.html">Home</a>
+                        <a class="btn btn-link text-white-50" href="About.html">About Us</a>
+                       
+                        <a class="btn btn-link text-white-50" href="Curriculum.html">Curriculum</a>
+                        <a class="btn btn-link text-white-50" href="Faculty.html">Faculty</a>
+                        <a class="btn btn-link text-white-50" href="Gallery.html">Gallery</a>
+						 <a class="btn btn-link text-white-50" href="Contact.html">Contact Us</a>
+                    </div>
+					<div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Get In Touch</h3>
+                        <a class='ContentLink' href='tel:+91 8765128693'>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8765128693</p>
+						</a>
+						 <a class='ContentLink' href='tel:+91 8765128694 '>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8765128694 </p>
+						</a>
+						 <a class='ContentLink' href='mailto:srvs1245@gmail.com'>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>srvs1245@gmail.com</p>
+						</a>
+                        <!---	<div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/srvsbed.sikanderpur/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>-->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Photo Gallery</h3>
+                        <div class="row g-2 pt-2">
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/footimg1.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/footimg2.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/footimg3.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/footimg4.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/footimg5.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded bg-light p-1" src="img/footimg6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div><hr>
+            <div class="container-fluid">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="index.html">SRVS Law College</a>, All Right Reserved. 
+					
+							
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+            Designed By <a class="border-bottom" href="https://techomind.com" target='_blank'>Techomind</a>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg  btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
