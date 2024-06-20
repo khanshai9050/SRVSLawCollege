@@ -211,7 +211,7 @@ padding: 10px 70px;
 {
 	margin-top:-30px;
 	margin-left:10px;
-	font-size:18px;
+	font-weight:300;
 }
 	.nav-links.active {
 		left: 0; /* Slide into view */
@@ -511,6 +511,33 @@ width:40px;
 	padding:10px;
 }
 }
+
+/*css for About WorkCounter*/
+.CounterBack
+{
+    height:200px;
+	background-image:url(../img/CounterBack.jpg);
+	background-position:cover;
+	 background-attachment: fixed;
+}
+.CounterCard
+{
+	padding:40px 10px;
+	text-align:center;
+	border:none;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin-top:20px;
+}
+.CounterCard h4
+{
+color:grey;
+}
+.CounterCard h1
+{
+	color:black;
+}
+/*end css for About WorkCounter*/
+
 /*css for why choose us*/
 .ChooseCard h4
 {
